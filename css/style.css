@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -127,3 +128,19 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+/* responsive tablet */
+
+@media all and (max-width: 768px) {
+    .steps{
+        /* debug */
+        background-color: red;
+    }
+}
+
+/* responsive smartphone */
+
+@media all and (max-width: 480px) {
+
+}
