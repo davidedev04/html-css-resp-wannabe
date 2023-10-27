@@ -133,14 +133,24 @@ img {
 /* responsive tablet */
 
 @media all and (max-width: 768px) {
-    .steps{
-        /* debug */
-        background-color: red;
+
+    .container {
+        width: 100vw;
     }
+
 }
 
 /* responsive smartphone */
 
 @media all and (max-width: 480px) {
 
+    .row .col{
+        width: 100vw;
+    }
+
+    .row{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
 }
